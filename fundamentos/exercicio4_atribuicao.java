@@ -1,5 +1,5 @@
 import java.util.*;
-public class exercicio4 {
+public class exercicio4_atribuicao {
     public static void main(String [] args){
     var leitor = new Scanner(System.in);
     
@@ -10,6 +10,7 @@ public class exercicio4 {
     double area = lado_a*lado_b;
     System.out.printf("A area do retangulo igual a --> [: %f :]",area);
 
+            leitor.close();
 
     }
 }

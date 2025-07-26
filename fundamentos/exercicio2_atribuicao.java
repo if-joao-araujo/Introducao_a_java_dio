@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class exercicio2 {
+public class exercicio2_atribuicao {
     public static void main(String [] args){
     var leitor = new Scanner(System.in);
 
@@ -8,6 +8,7 @@ public class exercicio2 {
     double lado_quadrado = leitor.nextDouble();
     System.out.printf("A area do quadrado é igual a --> %f",lado_quadrado*lado_quadrado);
 
+            leitor.close();
     
     }
 }

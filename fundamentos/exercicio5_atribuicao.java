@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class exercicio5 {
+public class exercicio5_atribuicao {
         public static void main(String [] args){
             var leitor = new Scanner(System.in);
 
@@ -17,5 +17,7 @@ public class exercicio5 {
             }
 
             System.out.printf("A diferença da pessoa A para a b é de --> %d",diferenca);
+
+            leitor.close();
     }
 }

@@ -7,5 +7,7 @@ public class atribuicao {
             boolean correto = valor == 10;
             System.out.printf("O resultado correto é -> 10, voçê digitou (%s) está certo? -> (%s)",valor,correto );
 
+            leitor.close();
+
     }
 }
